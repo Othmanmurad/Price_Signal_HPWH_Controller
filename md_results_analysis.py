@@ -54,7 +54,7 @@ Functions:
     compare_results: Main function coordinating overall analysis
 
 Usage:
-    python comparison_15mins.py
+    python md_results_analysis.py
     
     The season can be modified in the main function to analyze different
     seasonal simulation results (Winter, Spring, Summer, Fall).
