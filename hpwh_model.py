@@ -101,8 +101,6 @@ dwelling_args = {
                 'HPWH COP': 3.5,            # Coefficient of Performance
                 'hp_only_mode': True        # Use heat pump only (no backup resistance)
             },            
-
-            # 'Electric Resistance Water Heater'
         },
     },
 }
