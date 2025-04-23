@@ -60,7 +60,7 @@ Functions:
     main: Coordinates overall execution flow
 
 Usage:
-    python md_uncertainity_simulation.py
+    python md_simulations.py
 
 To switch between temporal displacement types (perfect knowledge, day-ahead, 
 two-day-ahead), uncomment the appropriate get_forecast_and_actual_data function 
