@@ -74,6 +74,7 @@ pd.set_option('display.max_rows', 30)      # Shows up to 30 rows of data
 dwelling_args = {
     # Timing parameters
     'start_time': dt.datetime(2023, 2, 22, 0, 0),  # year, month, day, hour, minute
+                                                   # Note: the model will not work with leap years
     'time_res': dt.timedelta(minutes=1),           # time resolution of the simulation
     'duration': dt.timedelta(days=1),              # duration of the simulation
     'initialization_time': dt.timedelta(days=1),   # used to create realistic starting temperature
