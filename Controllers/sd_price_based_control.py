@@ -24,9 +24,9 @@ The control strategy features:
    - Season-specific thresholds for load-adding periods (40-45%)
    
 4. Seasonal adaptation - Control parameters are adjusted based on seasonal conditions:
-   - Winter: 45% threshold, 120-180 minute load-up periods
+   - Winter: 35% threshold, 120-180 minute load-up periods
    - Spring/Fall: 40% threshold, 90-150 minute load-up periods
-   - Summer: 35% threshold, 60-120 minute load-up periods
+   - Summer: 45% threshold, 60-120 minute load-up periods
    
 5. CTA-2045-B command implementation - The control strategy translates price-based 
    decisions into standardized commands:
