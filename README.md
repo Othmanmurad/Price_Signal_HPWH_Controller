@@ -55,4 +55,15 @@ Once a simulation is complete:
   - Load shifting performance
   - Statistical significance
 
+---
+
+---
+
+## Additional OCHRE Resources
+
+For more information about OCHRE, visit the following links:
+
+-  [NREL OCHRE Project Page](https://www.nrel.gov/grid/ochre)
+-  [OCHRE GitHub Repository](https://github.com/NREL/OCHRE)
+-  [OCHRE Documentation](https://ochre-nrel.readthedocs.io/en/latest/index.html)
 
