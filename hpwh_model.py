@@ -97,9 +97,9 @@ dwelling_args = {
         # Water heating equipment configuration
         'Water Heating': {
             'Heat Pump Water Heater': {
-                'water_nodes': 12,          # Number of stratified layers in tank
-                'HPWH COP': 3.5,            # Coefficient of Performance
-                'hp_only_mode': True        # Use heat pump only (no backup resistance)
+                # 'water_nodes': 12,          # Number of stratified layers in tank
+                # 'HPWH COP': 3.5,            # Coefficient of Performance
+                # 'hp_only_mode': True        # Use heat pump only (no backup resistance)
             },            
         },
     },
