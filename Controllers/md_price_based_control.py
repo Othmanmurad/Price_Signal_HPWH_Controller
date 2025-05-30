@@ -17,7 +17,7 @@ The control strategy features:
 3. Dynamic price thresholds - using proportional thresholds (40/70% of peak price) to 
    determine load-adding and load-shedding periods
 4. Seasonal adaptation - adjusting thresholds based on seasonal conditions 
-   (winter: 45%, spring/fall: 40%, summer: 35%)
+   (winter: 35%, spring/fall: 40%, summer: 45%)
 5. CTA-2045-B command integration - translating price decisions into standardized commands:
    - Load-up: Standard preheating (setpoint 130°F)
    - Advanced Load-up: Enhanced preheating (setpoint 145°F)
