@@ -20,9 +20,9 @@ The control strategy features:
 3. Dynamic price thresholds - Proportional thresholds determine control periods:
    - 70% of peak price for load-shedding periods
    - Season-specific thresholds for load-adding periods:
-     * Winter: 45% threshold (higher due to colder inlet temperatures)
+     * Winter: 35% threshold (higher due to colder inlet temperatures)
      * Spring/Fall: 40% threshold (moderate conditions)
-     * Summer: 35% threshold (warmer inlet temperatures)
+     * Summer: 45% threshold (warmer inlet temperatures)
    
 4. Seasonal duration adaptation - Load-up periods are adjusted by season:
    - Winter: 120-180 minutes (extended for colder conditions)
