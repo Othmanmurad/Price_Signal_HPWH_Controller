@@ -4,13 +4,13 @@ This repository contains the code and input files used to simulate a price-respo
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install OCHRE
 
 To begin, install the OCHRE platform by following the steps in the official user tutorial:
 
-👉 [OCHRE User Tutorial (Google Colab)](https://colab.research.google.com/github/NREL/OCHRE/blob/main/notebook/user_tutorial.ipynb)
+[OCHRE User Tutorial (Google Colab)](https://colab.research.google.com/github/NREL/OCHRE/blob/main/notebook/user_tutorial.ipynb)
 
 > **Note:** It is highly recommended to install OCHRE locally (e.g., in Visual Studio Code) rather than running it in Colab. All simulations in this repository were performed using a local setup.
 
@@ -20,28 +20,31 @@ To begin, install the OCHRE platform by following the steps in the official user
 
 The repository includes input files required to run the simulations:
 
-- `*.xml`: Defines the building and equipment properties.
-- `*.csv`: Contains the water usage schedule.
-- `*.epw`: Includes weather data in EnergyPlus Weather format.
+- `.xml`: Defines the building and equipment properties.
+- `.csv`: Contains the water usage schedule.
+- `.epw`: Includes weather data in EnergyPlus Weather format.
 
 Make sure to place these files in the correct directories as specified in each script.
 
 ---
+### 3. Download the HPWH model
+-  `hpwh_model.py`: HPWH model script that has to be placed in the same directory as the `run_dwelling.py` script placed in the default path of OCHRE
 
-### 3. Run the Controller
+
+### 4. Run the Controller
 
 The controller includes both single-day and multi-day simulation options:
 
-#### ✅ Single-Day Simulation
-- A basic script that runs a simulation using one water draw profile.
+#### Single-Day Simulation
+-  `sd_price_based_control.py`: A basic script that runs a simulation using one water draw profile.
 
-#### ✅ Multi-Day Simulation
-- `multi_sim_simple.py`: Simulates using a single water draw profile across multiple days.
-- `multi_sim_large_scale.py`: Simulates using eight diverse water draw profiles for a broader evaluation.
+#### Multi-Day Simulation
+- `md_price_based_control.py`: Simulates using a single water draw profile across multiple days.
+- `md_large_scale_simulations.py`: Simulates using eight diverse water draw profiles for a broader evaluation.
 
 ---
 
-### 4. Analyze Results
+### 5. Analyze Results
 
 Once a simulation is complete:
 
@@ -52,12 +55,4 @@ Once a simulation is complete:
   - Load shifting performance
   - Statistical significance
 
----
 
-## 📬 Contact
-
-If you have any questions, please feel free to open an issue or contact the repository maintainer.
-
----
-
-Happy simulating! 🔧📊⚡
