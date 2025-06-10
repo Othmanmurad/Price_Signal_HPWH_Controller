@@ -65,11 +65,6 @@ import pandas as pd
 from ochre import Dwelling, Analysis, CreateFigures
 from ochre.utils import default_input_path
 
-# Set pandas display options for better readability
-pd.set_option('display.precision', 3)      # precision in print statements
-pd.set_option('expand_frame_repr', False)  # Keeps results on 1 line
-pd.set_option('display.max_rows', 30)      # Shows up to 30 rows of data
-
 # Main configuration dictionary for OCHRE simulations
 dwelling_args = {
     # Timing parameters
@@ -77,8 +72,6 @@ dwelling_args = {
                                                    # Note: the model will not work with leap years
     'time_res': dt.timedelta(minutes=1),           # time resolution of the simulation
     'duration': dt.timedelta(days=1),              # duration of the simulation
-    'initialization_time': dt.timedelta(days=1),   # used to create realistic starting temperature
-    'time_zone': None,                             # option to specify daylight savings, in development
 
     # Input parameters - Sample building and equipment characteristics file
     'hpxml_file': os.path.join(default_input_path, 'Input Files', '3bedroom.xml'),
@@ -97,9 +90,6 @@ dwelling_args = {
         # Water heating equipment configuration
         'Water Heating': {
             'Heat Pump Water Heater': {
-                # 'water_nodes': 12,          # Number of stratified layers in tank
-                # 'HPWH COP': 3.5,            # Coefficient of Performance
-                # 'hp_only_mode': True        # Use heat pump only (no backup resistance)
             },            
         },
     },
