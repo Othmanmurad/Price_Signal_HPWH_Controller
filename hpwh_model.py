@@ -11,18 +11,15 @@ the price-signal-based control strategy evaluation.
 
 The configuration includes:
 1. Temporal parameters - Setting simulation timing (start time, resolution, duration)
-   with 1-minute resolution for high-fidelity HPWH operation modeling
-
-2. HPWH configuration - Modeling a stratified 12-node heat pump water heater with 
-   COP of 3.5 in heat-pump-only mode to accurately capture thermal dynamics
+   with a 1-minute resolution for high-fidelity HPWH operation modeling
    
-3. Building specification - Using a representative 3-bedroom single-family home model
+2. Building specification - Using a representative 3-bedroom single-family home model
    based on HPXML standards for Portland, Oregon
    
-4. Schedule data - Using standardized residential water draw profiles (schedules_1.csv)
+3. Schedule data - Using standardized residential water draw profiles (schedules_1.csv)
    based on typical occupancy patterns
 
-5. Weather data - Incorporating TMY3 weather data for Portland, Oregon to provide
+4. Weather data - Incorporating TMY3 weather data for Portland, Oregon, to provide
    realistic ambient conditions
 
 The dwelling_args dictionary serves as the primary configuration interface for this thesis 
