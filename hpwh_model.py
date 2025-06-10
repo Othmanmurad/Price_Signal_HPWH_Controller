@@ -59,7 +59,7 @@ import os
 import datetime as dt
 import pandas as pd
 
-from ochre import Dwelling, Analysis, CreateFigures
+from ochre import Dwelling
 from ochre.utils import default_input_path
 
 # Main configuration dictionary for OCHRE simulations
